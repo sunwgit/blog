@@ -3,13 +3,20 @@
 ### 1.Dart 语言
 
 - 基本类型
+  
   `var` 关键字定义变量: `var num = 999`; Dart 属于动态类型语言，支持闭包。
-- 变量
-  Dart 不需要给变量设置`setter getter`方法。基本类型、类都继承于 Object,默认值都是 null
 
-Dart 中`final 和 const` 表示常量，`static const` 代表静态常量。`const` 修饰的常量在编译期确定,所以必须在定义时就初始化，`final` 修饰的常量在运行时确定。
+- 变量
+  
+  Dart 不需要给变量设置`setter getter`方法。基本类型、类都继承于 `Object`,默认值都是 `null`.
+
+- 常量
+  
+  Dart 中`final 和 const` 表示常量，`static const` 代表静态常量。
+  `const` 修饰的常量在编译期确定,所以必须在定义时就初始化，`final` 修饰的常量在运行时确定。
 
 - 特殊操作符
+  
   `~/` 取商的整数位 `print(4~/3); // 1`
   `as` 类型转换
   `is` 如果`Demo` 实现了 `T` 接口，那么`Demo() is T` 返回 `true`.
@@ -33,5 +40,3 @@ Dart 中`final 和 const` 表示常量，`static const` 代表静态常量。`co
 ```dart
 void foo(String name,{int age = 20})
 ```
-
-[sss](./test.dart)
